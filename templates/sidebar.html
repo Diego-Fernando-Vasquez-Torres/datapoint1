@@ -1,0 +1,29 @@
+<div class="sidebar-menu">
+    <nav>
+        <div class="logo">
+            <h2><i class="fas fa-chart-line"></i> DataPoint</h2>
+        </div>
+        <ul>
+            <li>
+                <a href="/" class="{% if active_page == 'inicio' %}active{% endif %}">
+                    <i class="fas fa-home"></i> Inicio
+                </a>
+            </li>
+            <li>
+                <a href="/ventas" class="{% if active_page == 'ventas' %}active{% endif %}">
+                    <i class="fas fa-box"></i> Punto de Ventas
+                </a>
+            </li>
+            <li>
+                <a href="/compras" class="{% if active_page == 'compras' %}active{% endif %}">
+                    <i class="fas fa-chart-line"></i> Compras
+                </a>
+            </li>
+            <li>
+                <a href="/formalizar" class="{% if active_page == 'formalizacion' %}active{% endif %}">
+                    <i class="fa-solid fa-trophy"></i> Ruta de Formalización
+                </a>
+            </li>
+        </ul>
+    </nav>
+</div>
